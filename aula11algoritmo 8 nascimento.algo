@@ -1,0 +1,14 @@
+algoritmo 8 nascimento
+    inteiro anoN, anoT
+    real idadeP, idadeF
+    início
+      escreva ("digite a o ano da sua idade")
+      leia (anoN)
+      escreva ("digite o ano atual")
+      leia (anoT)
+      idadeP = 2021-anoN
+      escreva ("sua idade é " + idadeP)
+      idadeF = idadeP + (2050-anoT)
+      escreva ("a sua idade em 2050 é" + idadeF)     
+        
+    fim

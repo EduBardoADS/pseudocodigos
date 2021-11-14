@@ -1,0 +1,12 @@
+algoritmo 11
+    literal  nomeF
+    real salariof [10]
+    inicio
+       escreva ("digite o nome do funcionario")
+       leia (nomeF) 
+       escreva ("digite o salario do funcionario")
+       leia (salarioF)
+
+
+       
+    fim

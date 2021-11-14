@@ -1,0 +1,13 @@
+algoritmo 9 funcionário
+    real salario, vendas, comissão, salarioF
+    início
+      escreva ("digite o valor do seu salario")
+      leia (salario)
+      escreva ("digite o valor das suas vendas")
+      leia (vendas)
+      comissão = vendas + (4/100)
+      escreva ("o valor da sua comissão é" + comissão)
+      salarioF = salario + comissão
+      escreva ("seu salario mais a comissão é " + salarioF)
+        
+    fim

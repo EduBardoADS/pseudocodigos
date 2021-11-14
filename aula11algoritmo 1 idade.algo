@@ -1,0 +1,24 @@
+algoritmo 1 idade
+    inteiro idade
+    real 
+    início
+      escreva ("qual é a sua idade")
+      leia (idade)
+      totaldias =  idade*360
+      escreva ("seu total de dias vividos são" + totaldias)    
+    fim
+
+
+
+
+
+
+
+
+   
+    
+    
+    
+    
+
+  fim

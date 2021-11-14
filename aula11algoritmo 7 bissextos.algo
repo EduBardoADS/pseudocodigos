@@ -1,0 +1,10 @@
+algoritmo 7 bissextos
+    inteiro ano
+    início
+        escreva("escreva um ano entre 1901 e 2020")
+        leia(ano)
+   
+        se (ano mod 400 = 0) ou ((ano mod 4 = 0) e (ano mod 100 <> 0))
+             escreva(ano, " é bisexto!")
+           
+    fim

@@ -1,0 +1,38 @@
+algoritmo  10 menu de opções
+    real soma, subtrair, multi, num
+    inteiro opcoes
+    início
+      escreva("escolha uma opção")
+      escreva("1- Somar dois números")
+      escreva("2- Subtrair dois números")
+      escreva("3- Multiplicar dois números")
+      escreva("4- Sair")
+      leia (opçoes)
+      escreva ("digite o primeiro numero")
+      leia (num1)
+      escreva ("digite o segundo numero")
+      leia (num2)
+      soma = num1+num2
+      subtrair = num1-num2
+      multi = num1*num2
+
+      escolha(opcoes)
+      caso 1:
+        se(opcoes == 1)
+        escreva("a soma dos numeros é" + soma)
+        pare
+      caso 2:
+        se(opcoes == 2)
+        escreva("a soma dos numeros é" + soma)
+        pare
+      caso 3:
+        se(opcoes == 3)
+        escreva("a soma dos numeros é" + soma)
+        pare
+      caso 4:
+        se(opcoes == 4)
+        escreva("Voce escolheu a opção sair")
+        pare  
+             
+        
+    fim

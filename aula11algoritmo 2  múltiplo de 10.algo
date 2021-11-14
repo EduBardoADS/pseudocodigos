@@ -1,0 +1,27 @@
+algoritmo 2  múltiplo de 10    
+    real num, resultado
+    início
+      escreva ("escreva um numero")
+      leia (num)
+      resultado = num%10
+
+      se(num = 0)
+        escreva ("seu numero é multiplo de 10")
+      senao (num != 0)
+        escreva ("seu numero nao e multiplo de 10")     
+    fim
+
+
+
+
+
+
+
+
+   
+    
+    
+    
+    
+
+  fim

@@ -1,0 +1,19 @@
+algoritmo 5 alunos
+    real  idade [500], media, soma 
+    inteiro i
+    início
+        soma = 0
+        para (i = 0; i < 500; i++) {
+        escreva("escreva a idade do " + (i + 1) + "° aluno" )
+        leia(idade[i])
+        }
+        se (idade => 16 )
+            escreva ("aluno possui idade para votar")
+    
+        para (i = 0; i < 500; i++) {
+            soma += idade[i]
+        }
+        media = soma/500;
+
+        escreva("A média da idade dos alunos é: " + media)    
+    fim

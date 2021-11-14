@@ -1,0 +1,13 @@
+algoritmo 6 pessoas
+    inteiro i
+    real pessoas
+    literal pdt, sexo, resp
+    início      
+      escreva ("Voce tem interesse no produto SIM ou NAO")
+      leia (pdt)
+      escreva("Digite o sexo da pessoa: M/F")
+      leia(sexo)
+
+
+        
+    fim
